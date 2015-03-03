@@ -1,0 +1,9 @@
+A = input("Give a temperature in Fahrenheit: ")
+A = int(A)
+B = 5 * (A - 32)/9
+print ("A temperature of ",A, " degrees Fahrenheit is ",B, "in Celsius")
+if B <=100:
+	print ("Water does not boil a this temperature")
+else: ("Water does boil a this temperature")
+
+input()
