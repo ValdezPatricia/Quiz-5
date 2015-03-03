@@ -1,0 +1,16 @@
+a = int(input("Give us the lower bound: "))
+b = int(input("Give us the upper bound: "))
+suma = a
+c = 0
+if (a > b):
+	print (" The first number has to be lower than the second one, please try again")
+else:	
+	while (suma != b): 
+		suma = suma + 1
+		c = a + suma 
+		a = c
+	
+
+print ("la suma es ",c)
+
+input()
