@@ -1,0 +1,19 @@
+from random import randint 
+a = int(randint(1,100))
+b = 0 
+print ("ADIVINA EL NUMERO 0 a 100")
+N = int(input("Dame un numero: "))
+
+while ( N != a):
+	b = b+1
+	if (N > a):
+		print ("El numero es menor")
+		N = int(input("Dame otro numero: "))
+	if (N < a):
+		print ("El numero es mayor")
+		N = int(input("Dame otro numero: "))
+if ( N == a):
+	print ("ADIVINASTE EL NUMERO")
+	print ("Numero de intentos: ",b)
+
+input()
