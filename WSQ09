@@ -1,0 +1,24 @@
+#WSQ09
+
+#Valdez,P
+
+def factorial(n):
+	x = n
+	y = 1
+	while (x > 1):
+		y = y * x
+		x = x - 1
+	return y
+a = "1"
+while (a == "1"):
+	n = int(input("Inserta un numero: "))
+	f = factorial(n)
+	
+	if (n < 0):
+		print("Inserta un numero positivo: ")
+	else:
+		print("El factorial de", n, "es", f)
+		a = input("Quieres intentarlo otra vez, si(1), no(2): ")
+		
+
+input()
