@@ -1,0 +1,31 @@
+#Valdez,P
+def sum(x,y):
+	suma = x+y
+	return suma
+def difference(x,y):
+	dif = x-y
+	return dif
+def product(x,y):
+	prod = x*y
+	return prod
+def division(x,y):
+	div = x//y
+	return div
+def remainder(x,y):
+	rem = x%y
+	return rem
+
+x = int(input("Dame un numero: "))              
+y = int(input("Dame otro numero: "))
+a = sum(x,y)
+b = difference(x,y)
+c = product(x,y)
+d = division(x,y)
+e = remainder(x,y)
+
+print (x,"+",y,"=",sum(x,y))
+print (x,"-",y,"=",difference(x,y))
+print (x,"*",y,"=",product(x,y))
+print (x,"/",y,"=",division(x,y))
+print (x,"%",y,"=",remainder(x,y))
+int()
